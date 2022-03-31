@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  background: url(../img/bg.jpg);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 95px 0 0 0;
+}
+
+h1::after,
+h1::before {
+  content: " 👾 ";
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: rgb(224, 75, 75);
+}
+
+aside {
+  background-color: rgb(224, 75, 75);
+  padding: 50px;
+}
+
+aside div {
+  margin: 10px;
+}
+
+.red {
+  padding: 20px;
+  background-color: red;
+}
+
+.blue {
+  padding: 20px;
+  background-color: blue;
+}
+
+.green {
+  padding: 20px;
+  background-color: green;
+}
+
+.drop {
+  width: 50%;
+  background-color: black;
+}
