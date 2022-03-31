@@ -29,6 +29,10 @@ main {
   padding: 95px 0 0 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 h1::after,
 h1::before {
   content: " 👾 ";
@@ -51,21 +55,40 @@ aside div {
 }
 
 .red {
-  padding: 20px;
+  padding: 30px;
+  cursor: cell;
   background-color: red;
 }
 
 .blue {
-  padding: 20px;
+  padding: 30px;
+  cursor: cell;
   background-color: blue;
 }
 
 .green {
-  padding: 20px;
+  padding: 30px;
+  cursor: cell;
   background-color: green;
 }
 
 .drop {
   width: 50%;
   background-color: black;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  background-color: rgb(224, 75, 75);
+  font-size: 1.8rem;
+  padding: 15px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+footer img {
+  width: 5%;
 }
